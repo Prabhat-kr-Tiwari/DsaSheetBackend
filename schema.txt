@@ -1,0 +1,45 @@
+Category
+    -  id: 1
+    -  title: Dynamic Programming
+    -  slug: dynamic-programming
+    -  priority: 0
+
+Mentor
+    -   id: 1
+    -   title: Love Babbar
+    -   slug: love-babbar
+
+Platform
+    -   id: 1
+    -   title: Leetcode
+    -   slug: leetcode
+
+Problem
+    -   id: 1
+    -   title: Reverse a string
+    -   slug: reverse-a-string
+    -   description: reverse string using recursion
+
+ProblemCategory
+    -   id: 1
+    -   problem_id: 1
+    -   category_id: 1
+
+ProblemAuthor
+    -   id: 1
+    -   problem_id: 1
+    -   author_id: 1
+
+ProblemPlatformLink
+    - id: 1
+    - problem_id: 1
+    - platform_id: 1
+    - link: this_is_url
+
+UserProblemStatus
+    -   id: 1
+    -   user_id: 1
+    -   problem_id: 1
+    -   is_solved: 0,1,2 / unsolved, pending, solved
+    -   bookmark: 0,1
+    -   notes: algo, text message
